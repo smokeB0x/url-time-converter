@@ -10,12 +10,12 @@ import base64
 import datetime
 
 #checks if there is an argument other than the script (the ei-value) and provides instructions of it does not. also adds the argument (ei-value) to the varable value
-if len(sys.argv) > 1:
+if len(sys.argv) == 2:
     value = sys.argv[1]  
 else:
-    print("No input string provided.")
+    print("Error! Wrong input.")
     print("Usage: python3 ei-converter.py <ei-value>")
-
+    exit()
 
 print("Inputed value: ", value)
 
