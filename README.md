@@ -1,7 +1,9 @@
 # URL-time-converter
-Takes the ei-value in google search URLs, or timestamp value from tiktoc-videos and converts it to human readable date and time
+Takes the ei-value in google search URLs, or timestamp value from tiktok-videos and converts it to human readable date and time
 
-Usage: python3 url-time-converter.py <option> <value>
+Usage: 
+
+python3 url-time-converter.py option value
 
 Examples: 
 
