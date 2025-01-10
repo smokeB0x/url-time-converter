@@ -2,6 +2,7 @@
 """
 Script to decode certain values in URLs into date and time of posting. 
 The values need to be manually extracted from the URL and inputed into the CLI
+Version: 1.0
 """
 import sys
 import base64
